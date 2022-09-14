@@ -79,7 +79,7 @@ function App() {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <div className="rounded-2xl bg-purple-heart py-2 px-5 font-futura text-base text-white hover:cursor-pointer hover:bg-black-pearl">
+              <div className="rounded-2xl bg-purple-heart py-2 px-5 text-center font-futura text-base text-white hover:cursor-pointer hover:bg-black-pearl">
                 Reserve Your Spot
               </div>
             </a>
