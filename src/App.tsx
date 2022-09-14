@@ -1,25 +1,62 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+
+const LINKS = [
+  {
+    name: "Discord",
+    imgPath: "discord.svg",
+    url: "https://web3philippines.org/",
+  },
+  {
+    name: "Facebook",
+    imgPath: "facebook.svg",
+    url: "https://www.facebook.com/groups/web3philippines",
+  },
+  {
+    name: "Twitter",
+    imgPath: "twitter.svg",
+    url: "https://twitter.com/web3phl",
+  },
+  {
+    name: "Github",
+    imgPath: "github.svg",
+    url: "https://github.com/web3phl",
+  },
+];
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
+    <main className="h-screen w-screen bg-purple-heart">
+      <nav className="box-border flex w-screen justify-between bg-black-pearl p-5">
+        <img
+          className="h-12 items-center"
+          src="logo-text-large-white.png"
+          alt="Web3 Philippines Logo"
+        />
+        <span className="flex flex-row">
+          {LINKS.map((e) => (
+            <a href={e.url} target="_blank" rel="noreferrer noopener">
+              <img className="mx-1" src={e.imgPath} alt={e.name} />
+            </a>
+          ))}
+        </span>
+      </nav>
+      <footer className="box-border flex w-screen justify-between bg-black-pearl p-5">
+        <img
+          className="h-12 items-center"
+          src="logo-text-large-white.png"
+          alt="Web3 Philippines Logo"
+        />
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          href="https://web3philippines.org/"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer noopener"
         >
-          Learn React
+          <p className="font-satoshi text-white">web3philippines.org</p>
         </a>
-      </header>
-    </div>
+      </footer>
+    </main>
   );
 }
 
