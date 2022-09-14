@@ -79,9 +79,9 @@ function App() {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <span className="rounded-2xl bg-purple-heart py-2 px-5 font-futura text-base text-white hover:cursor-pointer hover:bg-black-pearl">
+              <div className="rounded-2xl bg-purple-heart py-2 px-5 font-futura text-base text-white hover:cursor-pointer hover:bg-black-pearl">
                 Reserve Your Spot
-              </span>
+              </div>
             </a>
           </aside>
           <aside className="border-box flex items-center p-5">
@@ -133,7 +133,7 @@ function App() {
           rel="noreferrer noopener"
         >
           <div className="rounded-2xl bg-black-pearl py-2 px-5 text-center font-futura text-3xl text-white hover:cursor-pointer hover:text-purple-heart ">
-            Sign up and learn from the BEST!
+            Register and learn from the BEST!
           </div>
         </a>
       </section>
