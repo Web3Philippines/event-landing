@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.16451a60.css",
+    "main.js": "/static/js/main.dce3b762.js",
+    "static/js/787.eac0e943.chunk.js": "/static/js/787.eac0e943.chunk.js",
+    "static/media/draper.png": "/static/media/draper.5063ff6abbcb1e462d2d.png",
+    "static/media/Satoshi.ttf": "/static/media/Satoshi.536fda9b164542087fc7.ttf",
+    "static/media/Futura Bold font.ttf": "/static/media/Futura Bold font.7bfa561462fd51bcc460.ttf",
+    "index.html": "/index.html",
+    "main.16451a60.css.map": "/static/css/main.16451a60.css.map",
+    "main.dce3b762.js.map": "/static/js/main.dce3b762.js.map",
+    "787.eac0e943.chunk.js.map": "/static/js/787.eac0e943.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16451a60.css",
+    "static/js/main.dce3b762.js"
+  ]
+}
