@@ -28,21 +28,24 @@ const LINKS = [
 function App() {
   return (
     <main className="h-screen w-screen bg-purple-heart">
-      <nav className="box-border flex w-screen justify-between bg-black-pearl p-5">
+      <nav className="box-border flex w-screen items-center justify-between bg-black-pearl p-5">
         <img
           className="h-12 items-center"
           src="logo-text-large-white.png"
           alt="Web3 Philippines Logo"
         />
         <span className="flex flex-row">
-          {LINKS.map((e) => (
-            <a href={e.url} target="_blank" rel="noreferrer noopener">
+          {LINKS.map((e, idx) => (
+            <a key={idx} href={e.url} target="_blank" rel="noreferrer noopener">
               <img className="mx-1" src={e.imgPath} alt={e.name} />
             </a>
           ))}
         </span>
       </nav>
-      <footer className="box-border flex w-screen justify-between bg-black-pearl p-5">
+
+      <header className="h-6/12 w-screen bg-draper"></header>
+
+      <footer className="box-border flex w-screen items-center justify-between bg-black-pearl p-5">
         <img
           className="h-12 items-center"
           src="logo-text-large-white.png"

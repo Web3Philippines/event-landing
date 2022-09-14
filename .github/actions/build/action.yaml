@@ -10,5 +10,5 @@ runs:
 
     - name: Build application
       run: |
-        yarn run build
+        CI=false yarn run build
       shell: bash

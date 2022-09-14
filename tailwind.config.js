@@ -7,6 +7,9 @@ module.exports = {
         futura: ["Futura"],
         satoshi: ["Satoshi"],
       },
+      backgroundImage: {
+        draper: "url('../public/draper.png')",
+      },
       colors: {
         "purple-heart": "#7b3fe4",
         "blue-ribbon": "#016eea",
