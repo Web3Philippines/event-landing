@@ -61,12 +61,12 @@ function App() {
       </nav>
 
       <header className="w-screen bg-draper bg-cover bg-center bg-no-repeat">
-        <div className="mt-10 grid min-h-screen grid-cols-1 bg-black-pearl/80 p-20 lg:mt-0 lg:grid-cols-2 lg:p-24">
+        <div className="mt-10 grid min-h-screen grid-cols-1 bg-black-pearl/80 py-20 px-10 lg:mt-0 lg:grid-cols-2 lg:p-24">
           <aside className="flex h-full flex-col justify-center p-5">
-            <h1 className="mb-5 font-futura text-5xl text-white">
+            <h1 className="mb-5 font-futura text-4xl text-white md:text-5xl">
               Ka-BATAK: What is Web3?
             </h1>
-            <span className="bg-purple-heart py-2 px-5 text-center font-satoshi text-xl text-white">
+            <span className="bg-purple-heart py-2 px-5 text-center font-satoshi text-lg text-white md:text-xl">
               A Web3 Philippines Meetup
             </span>
             <p className="mt-5 mb-10 font-satoshi text-base text-white">
@@ -84,13 +84,7 @@ function App() {
               </div>
             </a>
           </aside>
-          <aside className="border-box flex items-center p-5">
-            <img
-              className="w-full"
-              src="event.jpg"
-              alt="Event Pulication Material"
-            />
-          </aside>
+          <aside className="border-box flex items-center p-5"></aside>
         </div>
       </header>
 
@@ -113,7 +107,7 @@ function App() {
           <img className="w-4/5" src="draper.png" alt="Draper Startup House" />
         </aside>
         <aside className="flex items-center justify-center py-10">
-          <h1 className="w-4/5 font-futura text-5xl leading-normal text-black-pearl">
+          <h1 className="w-4/5 font-futura text-5xl leading-tight text-black-pearl">
             Know nothing about Web3?
             <br />{" "}
             <span className="text-purple-heart">This event is for YOU</span>.
