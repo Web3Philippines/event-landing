@@ -84,7 +84,13 @@ function App() {
               </div>
             </a>
           </aside>
-          <aside className="border-box flex items-center p-5"></aside>
+          <aside className="border-box flex items-center p-5">
+            <img
+              className="w-full"
+              src="event.jpg"
+              alt="Event Pulication Material"
+            />
+          </aside>
         </div>
       </header>
 
