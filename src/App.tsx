@@ -63,13 +63,13 @@ function App() {
       <header className="w-screen bg-draper bg-cover bg-center bg-no-repeat">
         <div className="mt-10 grid min-h-screen grid-cols-1 bg-black-pearl/80 py-20 px-10 lg:mt-0 lg:grid-cols-2 lg:p-24">
           <aside className="flex h-full flex-col justify-center p-5">
-            <h1 className="mb-5 font-futura text-4xl text-white md:text-5xl">
+            <h1 className="mb-5 text-center font-futura text-4xl text-white md:text-5xl">
               Ka-BATAK: What is Web3?
             </h1>
             <span className="bg-purple-heart py-2 px-5 text-center font-satoshi text-lg text-white md:text-xl">
               A Web3 Philippines Meetup
             </span>
-            <p className="mt-5 mb-10 font-satoshi text-base text-white">
+            <p className="mt-5 mb-20 font-satoshi text-base text-white">
               Join us in building the grassroots of Web3 in the Philippines by
               learning all about Web3 from the greatest Filipino minds in the
               space. Sign up now!
