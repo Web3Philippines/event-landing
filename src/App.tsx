@@ -80,7 +80,7 @@ function App() {
               rel="noreferrer noopener"
             >
               <div className="rounded-2xl bg-purple-heart py-2 px-5 text-center font-futura text-base text-white hover:cursor-pointer hover:bg-black-pearl">
-                Reserve Your Spot
+                Get Waitlisted (Slots Full)
               </div>
             </a>
           </aside>
@@ -133,7 +133,7 @@ function App() {
           rel="noreferrer noopener"
         >
           <div className="rounded-2xl bg-black-pearl py-2 px-5 text-center font-futura text-3xl text-white hover:cursor-pointer hover:text-purple-heart ">
-            Register and learn from the BEST!
+            WAITLIST for a chance to learn from the BEST! (Slots Full)
           </div>
         </a>
       </section>
