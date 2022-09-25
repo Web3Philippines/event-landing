@@ -158,7 +158,7 @@ const Home: FC = () => {
           </h1>
           {SPEAKERS.map((e, idx) => (
             <div key={idx}>
-              <div className="grid w-full grid-cols-1 text-center md:grid-cols-2 md:text-left">
+              <div className="grid w-full grid-cols-1 px-10 text-center md:grid-cols-2 md:text-left">
                 <aside className="order-first flex items-center justify-center md:order-none">
                   <img src={e.imgPath} alt={e.name} />
                 </aside>
@@ -181,7 +181,7 @@ const Home: FC = () => {
             </div>
           ))}
         </div>
-        <p className="my-32 max-w-[400px] rounded-2xl border-4 border-purple-heart p-4 text-center font-satoshi text-xl font-bold">
+        <p className="my-32 max-w-[400px] rounded-2xl border-4 border-purple-heart p-4 text-center font-satoshi text-xl font-bold text-purple-heart">
           If you're ready to learn about Web3 join us in our first meetup event.
         </p>
       </section>
