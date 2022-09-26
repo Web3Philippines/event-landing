@@ -57,6 +57,11 @@ const SPEAKERS = [
       "CTO - Likha",
     ],
   },
+  {
+    name: "Kristian Quirapas",
+    imgPath: "kristianquirapas.png",
+    positions: ["Co-Founder - Web3 Philippines", "Probably Nothing..."],
+  },
 ];
 
 const Home: FC = () => {
