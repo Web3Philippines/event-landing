@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e8951c6e.css",
-    "main.js": "/static/js/main.8b247f49.js",
+    "main.js": "/static/js/main.1dd9ac47.js",
     "static/js/787.eac0e943.chunk.js": "/static/js/787.eac0e943.chunk.js",
     "static/media/draper_one.jpg": "/static/media/draper_one.4aec7c9b82b7a0769b60.jpg",
     "static/media/draper_two.jpg": "/static/media/draper_two.781f4319c8ae5af13741.jpg",
@@ -11,11 +11,11 @@
     "static/media/Futura Heavy font.ttf": "/static/media/Futura Heavy font.af72c25a6945b0f48abb.ttf",
     "index.html": "/index.html",
     "main.e8951c6e.css.map": "/static/css/main.e8951c6e.css.map",
-    "main.8b247f49.js.map": "/static/js/main.8b247f49.js.map",
+    "main.1dd9ac47.js.map": "/static/js/main.1dd9ac47.js.map",
     "787.eac0e943.chunk.js.map": "/static/js/787.eac0e943.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e8951c6e.css",
-    "static/js/main.8b247f49.js"
+    "static/js/main.1dd9ac47.js"
   ]
 }
