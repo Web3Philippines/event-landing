@@ -98,7 +98,16 @@ const Home: FC = () => {
         <h1 className="pb-4 text-center font-futura text-xl text-black md:pb-0 md:text-3xl">
           Special thanks to our sponsors!
         </h1>
-        <div className="grid max-w-[900px] grid-cols-[2fr_1fr] gap-8">
+        <div className="grid max-w-[900px] grid-cols-[1fr_2fr_1fr] gap-8">
+          <aside className="flex w-full items-center">
+            <a
+              href="https://www.likhanft.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img className="w-full" src="sponsors/likha.png" alt="Likha" />
+            </a>
+          </aside>
           <aside className="flex w-full items-center">
             <a
               href="https://thirdweb.com/"
