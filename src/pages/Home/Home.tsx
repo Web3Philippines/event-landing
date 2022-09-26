@@ -60,7 +60,11 @@ const SPEAKERS = [
   {
     name: "Kristian Quirapas",
     imgPath: "kristianquirapas.png",
-    positions: ["Co-Founder - Web3 Philippines", "Probably Nothing..."],
+    positions: [
+      "Co-Founder - Web3 Philippines",
+      "Developer Advocate - thirdweb",
+      "Fullstack Blockchain Developer - Ethereum, Solana, NEAR",
+    ],
   },
 ];
 
