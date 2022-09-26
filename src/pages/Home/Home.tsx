@@ -76,9 +76,15 @@ const Home: FC = () => {
             learning all about Web3 from the greatest Filipino minds in the
             space.
           </p>
-          <div className="mb-2 rounded-full border-2 border-white py-2 px-6 text-center text-base font-bold hover:cursor-pointer hover:bg-white hover:text-purple-heart md:text-2xl">
-            Get Waitlisted
-          </div>
+          <a
+            href="https://www.eventbrite.sg/e/ka-batak-what-is-web3-tickets-419372663927"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="mb-2 rounded-full border-2 border-white py-2 px-6 text-center text-base font-bold hover:cursor-pointer hover:bg-white hover:text-purple-heart md:text-2xl">
+              Get Waitlisted
+            </div>
+          </a>
           <p className="text-base font-bold opacity-80 hover:opacity-100">
             Slots: Fully Booked
           </p>

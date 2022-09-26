@@ -48,7 +48,7 @@ const PROGRAMME: Segment[] = [
   {
     name: "Team Activity and Food",
     time: "7:10PM - 8:10PM",
-    assigned: "",
+    assigned: "Team Leaders",
   },
   {
     name: "Short Break",
