@@ -42,7 +42,7 @@ const SPEAKERS = [
       "Co-Founder - Web3 Philippines",
       "Core - Polygon Guild Manila",
       "Core - Open Source Software PH",
-      "Community Manager - thirweb",
+      "Community Manager - thirdweb",
       "President - Algo Filipino",
     ],
   },
