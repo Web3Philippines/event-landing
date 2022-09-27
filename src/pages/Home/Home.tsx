@@ -104,11 +104,11 @@ const Home: FC = () => {
         id="sponsors"
         className="bg-sponsors-bg flex w-screen flex-col items-center p-10 md:p-20"
       >
-        <h1 className="pb-4 text-center font-futura text-xl text-black md:pb-0 md:text-3xl">
+        <h1 className="pb-4 text-center font-futura text-xl text-black md:text-3xl">
           Special thanks to our sponsors!
         </h1>
-        <div className="grid max-w-[900px] grid-cols-[1fr_2fr_1fr] gap-8">
-          <aside className="flex w-full items-center">
+        <div className="grid max-w-[900px] grid-cols-1 gap-8 md:grid-cols-[1fr_2fr_1fr]">
+          <aside className="flex w-full items-center justify-center">
             <a
               href="https://www.likhanft.io/"
               target="_blank"
@@ -117,7 +117,7 @@ const Home: FC = () => {
               <img className="w-full" src="sponsors/likha.png" alt="Likha" />
             </a>
           </aside>
-          <aside className="flex w-full items-center">
+          <aside className="order-first flex w-full items-center justify-center md:order-none">
             <a
               href="https://thirdweb.com/"
               target="_blank"
@@ -130,7 +130,7 @@ const Home: FC = () => {
               />
             </a>
           </aside>
-          <aside className="flex w-full items-center">
+          <aside className="flex w-full items-center justify-center">
             <a
               href="https://www.linkedin.com/company/yoyo-holdings-pte-ltd-/?originalSubdomain=ph"
               target="_blank"
@@ -140,6 +140,30 @@ const Home: FC = () => {
                 className="w-full"
                 src="sponsors/yoyo.png"
                 alt="YOYO Holdings"
+              />
+            </a>
+          </aside>
+        </div>
+      </section>
+
+      <section
+        id="sponsors"
+        className="bg-sponsors-bg flex w-screen flex-col items-center p-10 md:p-20"
+      >
+        <h1 className="pb-4 text-center font-futura text-xl text-black md:text-3xl">
+          Also to our community partners!
+        </h1>
+        <div className="grid max-w-[900px] grid-cols-1 gap-8 md:grid-cols-1">
+          <aside className="flex w-full items-center justify-center">
+            <a
+              href="https://www.bitskwela.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="w-full max-w-[200px]"
+                src="partners/bitskwela.png"
+                alt="Bitskwela"
               />
             </a>
           </aside>
