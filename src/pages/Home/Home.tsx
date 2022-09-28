@@ -63,6 +63,7 @@ const SPEAKERS = [
     positions: [
       "Co-Founder - Web3 Philippines",
       "Developer Advocate - thirdweb",
+      "Community Lead - OSSPH",
       "Fullstack Blockchain Developer - Ethereum, Solana, NEAR",
     ],
   },
