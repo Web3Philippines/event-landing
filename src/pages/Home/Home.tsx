@@ -153,7 +153,7 @@ const Home: FC = () => {
         <h1 className="pb-4 text-center font-futura text-xl text-black md:text-3xl">
           Also to our community partners!
         </h1>
-        <div className="grid max-w-[900px] grid-cols-1 gap-8 md:grid-cols-1">
+        <div className="grid max-w-[900px] grid-cols-1 gap-8 md:grid-cols-2">
           <aside className="flex w-full items-center justify-center">
             <a
               href="https://www.bitskwela.com/"
@@ -164,6 +164,20 @@ const Home: FC = () => {
                 className="w-full max-w-[200px]"
                 src="partners/bitskwela.png"
                 alt="Bitskwela"
+              />
+            </a>
+          </aside>
+
+          <aside className="flex w-full items-center justify-center">
+            <a
+              href="https://bitpinas.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="w-full max-w-[200px]"
+                src="partners/bitpinas.png"
+                alt="Bitpinas"
               />
             </a>
           </aside>
