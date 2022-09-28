@@ -182,6 +182,34 @@ const Home: FC = () => {
               />
             </a>
           </aside>
+
+          <aside className="flex w-full items-center justify-center">
+            <a
+              href="https://www.facebook.com/groups/web3korea"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="w-full max-w-[200px]"
+                src="partners/web3korea.png"
+                alt="Web3 Korea"
+              />
+            </a>
+          </aside>
+
+          <aside className="flex w-full items-center justify-center">
+            <a
+              href="https://www.web3afrika.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="w-full max-w-[200px]"
+                src="partners/web3afrika.png"
+                alt="Web3 Afrika"
+              />
+            </a>
+          </aside>
         </div>
       </section>
 
