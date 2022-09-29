@@ -210,6 +210,20 @@ const Home: FC = () => {
               />
             </a>
           </aside>
+
+          <aside className="flex w-full items-center justify-center">
+            <a
+              href="https://ossph.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="w-full max-w-[200px]"
+                src="partners/ossph.png"
+                alt="OSSPH"
+              />
+            </a>
+          </aside>
         </div>
       </section>
 
