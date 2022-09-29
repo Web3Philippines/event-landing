@@ -56,7 +56,7 @@ const PROGRAMME: Segment[] = [
     assigned: "",
   },
   {
-    name: "Start with Web3 using thirdweb",
+    name: "Build in Web3 with thirdweb",
     time: "8:20PM - 8:40PM",
     assigned: "Waren Gonzaga",
   },
